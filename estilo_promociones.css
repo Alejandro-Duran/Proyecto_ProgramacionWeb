@@ -1,0 +1,127 @@
+/*En la primera parte de este archivo se manejan las dimensiones del contenedor de la cabecera*/
+div#cabecera{
+	background-color: #B1B1B1;
+	height: 120px;
+	width: auto;
+	display:flex;
+}
+/*En seguida se manejan los elementos que iran en la cabecera que son las opciones del menú
+de navegación y el logo encada extremo de la cabecera. Estos recursos se manejan en los elementos 
+de Logo, op1, op2, op3 y Logo2*/
+img#Logo{
+	height: 120px;
+	width: 100px;
+	margin: 0px 0px 0px 100px;
+}
+h5#op1{
+	font-family: Bahnschrift SemiCondensed;
+	margin: 50px 0px 0px 100px;
+	font-size: 25px;
+}
+h5#op2{
+	font-family: Bahnschrift SemiCondensed;
+	margin: 50px 0px 0px 130px;
+	font-size: 25px;
+}
+h5#op3{
+	font-family: Bahnschrift SemiCondensed;
+	margin: 50px 0px 0px 140px;
+	font-size: 25px;
+}
+img#Logo2{
+	height: 120px;
+	width: 100px;
+	margin: 0px 0px 0px 140px;
+}
+/*Se manejan las imagenes de las promociones para tener las
+caracteristicas requeridas y en seguida del trato de cada imagen
+se establecen los valores para el posicionamiento y carcteristicas
+de los textos que describen cada promoción*/
+img#I1{
+	height: 248px;
+	width: 414px;
+	margin: 50px 0px 0px 240px;
+}
+img#I1:hover{
+	height: 258px;
+	width: 424px;
+	margin: 50px 0px 0px 240px;
+}
+p#p1{
+	height: 188px;
+	width: 270px;
+	text-align: left;
+	font-size: 25px;
+	margin: -210px 0px 0px 670px;
+}
+p#p2{
+	height: 188px;
+	width: 270px;
+	text-align: right;
+	font-size: 25px;
+	margin: 60px 0px 0px 380px;
+}
+img#I2{
+	height: 248px;
+	width: 414px;
+	margin: -210px 0px 0px 670px;
+}
+img#I2:hover{
+	height: 258px;
+	width: 424px;
+	margin: -210px 0px 0px 670px;
+}
+img#I3{
+	height: 248px;
+	width: 414px;
+	margin: 20px 0px 0px 240px;
+}
+img#I3:hover{
+	height: 258px;
+	width: 424px;
+	margin: 50px 0px 0px 240px;
+}
+p#p3{
+	height: 188px;
+	width: 270px;
+	text-align: left;
+	font-size: 25px;
+	margin: -190px 0px 0px 670px;
+}
+p#p4{
+	height: 188px;
+	width: 270px;
+	text-align: right;
+	font-size: 25px;
+	margin: 70px 0px 0px 380px;
+}
+img#I4{
+	height: 248px;
+	width: 414px;
+	margin: -300px 50px 0px 670px;
+}
+img#I4:hover{
+	height: 258px;
+	width: 424px;
+	margin: -300px 0px 0px 670px;
+}
+/*Finalmente se manejan los atributos de los dos contenedores que contendran los
+datos del restaurante y del alumno en letra de molde*/
+div#pie{
+	background-color: #BBBBBB;
+	height: 200px;
+	display: flex;
+	margin: 30px 0px;
+}
+div#datos{
+	height: 100px;
+	width: 300px;
+	align-items: center;
+	margin: 30px 0px 0px 100px;
+}
+div#alumno{
+	height: 100px;
+	width: 300px;
+	align-items: center;
+	margin: 30px 0px 0px 400px;
+}

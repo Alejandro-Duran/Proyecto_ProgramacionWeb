@@ -1,0 +1,524 @@
+/*En la primera parte de este archivo se manejan las dimensiones del contenedor de la cabecera*/
+div#cabecera{
+	background-color: #B1B1B1;
+	height: 120px;
+	width: auto;
+	display:flex;
+}
+/*En seguida se manejan los elementos que iran en la cabecera que son las opciones del menú
+de navegación y el logo encada extremo de la cabecera. Estos recursos se manejan en los elementos 
+de Logo, op1, op2, op3 y Logo2*/
+img#Logo{
+	height: 120px;
+	width: 100px;
+	margin: 0px 0px 0px 100px;
+}
+h5#op1{
+	font-family: Bahnschrift SemiCondensed;
+	margin: 50px 0px 0px 130px;
+	font-size: 25px;
+}
+h5#op2{
+	font-family: Bahnschrift SemiCondensed;
+	margin: 50px 0px 0px 130px;
+	font-size: 25px;
+}
+h5#op3{
+	font-family: Bahnschrift SemiCondensed;
+	margin: 50px 0px 0px 130px;
+	font-size: 25px;
+}
+img#Logo2{
+	height: 120px;
+	width: 100px;
+	margin: 0px 0px 0px 130px;
+}
+/*Se manejan los atributos del contenedor que tendra la sección de guarniciones
+en el menu. Primeramente se manejan los atributos del titulo y a conntinuación se
+manejan los atributos de los contenedores de cada producto asi como su foto, titulo,
+descripción y precio. Cabe mencionar que cada foto de los productos tiene un "hover"
+para que al pasar el mouse sobre el producto, la imagen del mismo cresca 10px de
+largo y 10px de alto*/
+div#Guarniciones{
+	height: 900px;
+	width: auto;
+	display: flex;
+}
+h2#P1{
+	font-family: Bahnschrift SemiCondensed;
+	margin: 20px 0px 0px 590px;
+}
+div#g1{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px -705px;
+}
+img#a1{
+	height: 200px;
+	width: 400px;
+}
+img#a1:hover{
+	height: 210px;
+	width: 410px;
+}
+div#g2{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px 40px;
+}
+img#bo{
+	height: 200px;
+	width: 400px;
+}
+img#bo:hover{
+	height: 210px;
+	width: 410px;
+}
+div#g3{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px 40px;
+}
+img#de{
+	height: 200px;
+	width: 400px;
+}
+img#de:hover{
+	height: 210px;
+	width: 410px;
+}
+div#g4{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px -1280px;
+}
+img#pa{
+	height: 200px;
+	width: 400px;
+}
+img#pa:hover{
+	height: 210px;
+	width: 410px;
+}
+div#g5{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px 40px;
+}
+img#pa2{
+	height: 200px;
+	width: 400px;
+}
+img#pa2:hover{
+	height: 210px;
+	width: 410px;
+}
+div#g6{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px 40px;
+}
+img#to{
+	height: 200px;
+	width: 400px;
+}
+img#to:hover{
+	height: 210px;
+	width: 410px;
+}
+/*Se manejan los atributos del contenedor que tendra la sección de hamburguesas
+en el menu. Primeramente se manejan los atributos del titulo y a conntinuación se
+manejan los atributos de los contenedores de cada producto asi como su foto, titulo,
+descripción y precio. Cabe mencionar que cada foto de los productos tiene un "hover"
+para que al pasar el mouse sobre el producto, la imagen del mismo cresca 10px de
+largo y 10px de alto*/
+div#Hamburguesas{
+	background-color: #BBBBBB;
+	height: 930px;
+	width: auto;
+	display: flex;
+}
+h2#P2{
+	font-family: Bahnschrift SemiCondensed;
+	margin: 20px 0px 0px 590px;
+}
+div#h1{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px -722px;
+}
+img#ha1{
+	height: 200px;
+	width: 400px;
+}
+img#ha1:hover{
+	height: 210px;
+	width: 410px;
+}
+div#h2{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px 40px;
+}
+img#ha2{
+	height: 200px;
+	width: 400px;
+}
+img#ha2:hover{
+	height: 210px;
+	width: 410px;
+}
+div#h3{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px 40px;
+}
+img#ha3{
+	height: 200px;
+	width: 400px;
+}
+img#ha3:hover{
+	height: 210px;
+	width: 410px;
+}
+div#h4{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px -1280px;
+}
+img#ha4{
+	height: 200px;
+	width: 400px;
+}
+img#ha4:hover{
+	height: 210px;
+	width: 410px;
+}
+div#h5{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px 40px;
+}
+img#ha5{
+	height: 200px;
+	width: 400px;
+}
+img#ha5:hover{
+	height: 210px;
+	width: 410px;
+}
+div#h6{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px 40px;
+}
+img#ha6{
+	height: 200px;
+	width: 400px;
+}
+img#ha6:hover{
+	height: 210px;
+	width: 410px;
+}
+h3#papas{
+	font-family: Bahnschrift SemiCondensed;
+	margin: 900px 0px 0px -1280px;
+}/*Se manejan los atributos del contenedor que tendra la sección de cortes de carne
+en el menu. Primeramente se manejan los atributos del titulo y a conntinuación se
+manejan los atributos de los contenedores de cada producto asi como su foto, titulo,
+descripción y precio. Cabe mencionar que cada foto de los productos tiene un "hover"
+para que al pasar el mouse sobre el producto, la imagen del mismo cresca 10px de
+largo y 10px de alto*/
+div#cortes{
+	height: 900px;
+	width: auto;
+	display: flex;
+}
+h2#P3{
+	font-family: Bahnschrift SemiCondensed;
+	margin: 20px 0px 0px 570px;
+}
+div#c1{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px -717px;
+}
+img#co1{
+	height: 200px;
+	width: 400px;
+}
+img#co1:hover{
+	height: 210px;
+	width: 410px;
+}
+div#c2{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px 40px;
+}
+img#co2{
+	height: 200px;
+	width: 400px;
+}
+img#co2:hover{
+	height: 210px;
+	width: 410px;
+}
+div#c3{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px 40px;
+}
+img#co3{
+	height: 200px;
+	width: 400px;
+}
+img#co3:hover{
+	height: 210px;
+	width: 410px;
+}
+div#c4{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px -1280px;
+}
+img#co4{
+	height: 200px;
+	width: 400px;
+}
+img#co4:hover{
+	height: 210px;
+	width: 410px;
+}
+div#c5{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px 40px;
+}
+img#co5{
+	height: 200px;
+	width: 400px;
+}
+img#co5:hover{
+	height: 210px;
+	width: 410px;
+}
+div#c6{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px 40px;
+}
+img#co6{
+	height: 200px;
+	width: 400px;
+}
+img#co6:hover{
+	height: 210px;
+	width: 410px;
+}
+/*Se manejan los atributos del contenedor que tendra la sección de postres
+en el menu. Primeramente se manejan los atributos del titulo y a conntinuación se
+manejan los atributos de los contenedores de cada producto asi como su foto, titulo,
+descripción y precio. Cabe mencionar que cada foto de los productos tiene un "hover"
+para que al pasar el mouse sobre el producto, la imagen del mismo cresca 10px de
+largo y 10px de alto*/
+div#postres{
+	background-color: #BBBBBB;
+	height: 900px;
+	width: auto;
+	display: flex;
+}
+h2#P4{
+	font-family: Bahnschrift SemiCondensed;
+	margin: 20px 0px 0px 590px;
+}
+div#p1{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px -653px;
+}
+img#po1{
+	height: 200px;
+	width: 400px;
+}
+img#po1:hover{
+	height: 210px;
+	width: 410px;
+}
+div#p2{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px 40px;
+}
+img#po2{
+	height: 200px;
+	width: 400px;
+}
+img#po2:hover{
+	height: 210px;
+	width: 410px;
+}
+div#p3{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px 40px;
+}
+img#po3{
+	height: 200px;
+	width: 400px;
+}
+img#po3:hover{
+	height: 210px;
+	width: 410px;
+}
+div#p4{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px -1280px;
+}
+img#po4{
+	height: 200px;
+	width: 400px;
+}
+img#po4:hover{
+	height: 210px;
+	width: 410px;
+}
+div#p5{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px 40px;
+}
+img#po5{
+	height: 200px;
+	width: 400px;
+}
+img#po5:hover{
+	height: 210px;
+	width: 410px;
+}
+div#p6{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px 40px;
+}
+img#po6{
+	height: 200px;
+	width: 400px;
+}
+img#po6:hover{
+	height: 210px;
+	width: 410px;
+}
+/*Se manejan los atributos del contenedor que tendra la sección de bebidas
+en el menu. Primeramente se manejan los atributos del titulo y a conntinuación se
+manejan los atributos de los contenedores de cada producto asi como su foto, titulo,
+descripción y precio. Cabe mencionar que cada foto de los productos tiene un "hover"
+para que al pasar el mouse sobre el producto, la imagen del mismo cresca 10px de
+largo y 10px de alto*/
+div#bebidas{
+	height: 900px;
+	width: auto;
+	display: flex;
+}
+h2#P5{
+	font-family: Bahnschrift SemiCondensed;
+	margin: 20px 0px 0px 590px;
+}
+div#b1{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px -655px;
+}
+img#be1{
+	height: 200px;
+	width: 400px;
+}
+img#be1:hover{
+	height: 210px;
+	width: 410px;
+}
+div#b2{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px 40px;
+}
+img#be2{
+	height: 200px;
+	width: 400px;
+}
+img#be2:hover{
+	height: 210px;
+	width: 410px;
+}
+div#b3{
+	height: 400px;
+	width: 400px;
+	margin: 70px 0px 0px 40px;
+}
+img#be3{
+	height: 200px;
+	width: 400px;
+}
+img#be3:hover{
+	height: 210px;
+	width: 410px;
+}
+div#b4{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px -1280px;
+}
+img#be4{
+	height: 200px;
+	width: 400px;
+}
+img#be4:hover{
+	height: 210px;
+	width: 410px;
+}
+div#b5{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px 40px;
+}
+img#be5{
+	height: 200px;
+	width: 400px;
+}
+img#be5:hover{
+	height: 210px;
+	width: 410px;
+}
+div#b6{
+	height: 400px;
+	width: 400px;
+	margin: 480px 0px 0px 40px;
+}
+img#be6{
+	height: 200px;
+	width: 400px;
+}
+img#be6:hover{
+	height: 210px;
+	width: 410px;
+}
+/*Finalmente se manejan los atributos de los dos contenedores que contendran los
+datos del restaurante y del alumno en letra de molde*/
+div#pie{
+	background-color: #BBBBBB;
+	height: 200px;
+	display: flex;
+}
+div#datos{
+	height: 100px;
+	width: 300px;
+	align-items: center;
+	margin: 30px 0px 0px 100px;
+}
+div#alumno{
+	height: 100px;
+	width: 300px;
+	align-items: center;
+	margin: 30px 0px 0px 400px;
+}
